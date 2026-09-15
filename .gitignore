@@ -1,0 +1,9 @@
+# Datos (muy pesados para git; se regeneran con src/download_dataset.py)
+data/raw/
+download.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
