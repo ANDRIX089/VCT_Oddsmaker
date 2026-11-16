@@ -1,4 +1,4 @@
-![Banner del proyecto](banner_vct_oddsmaker.svg)
+![Banner del proyecto](Assets/banner_vct_oddsmaker.svg)
 # VCT Oddsmaker
 
 **Predicción de probabilidades de victoria por mapa en el Valorant Champions Tour (2024–2026)**
