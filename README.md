@@ -177,6 +177,7 @@ VCT_Oddsmaker/
 ├── requirements.txt
 └── README.md
 ```
+[![Video Explicativo de 5 minutos](https://img.youtube.com/vi/ID_DEL_VIDEO/0.jpg)](https://www.youtube.com/watch?v=ID_DEL_VIDEO)
 
 ## Reproducir en local
 
