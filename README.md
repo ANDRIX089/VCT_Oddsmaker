@@ -101,11 +101,11 @@ Los valores atípicos son partidos reales (palizas 13-2, overtimes largos) y **s
 
 ## Notebooks del proyecto
 
-| Notebook | Contenido | Diapositivas | Abrir |
-|---|---|---|---|
-| [`01_EDA.ipynb`](notebooks/01_EDA.ipynb) | Análisis exploratorio de datos (primera entrega) | [PDF](presentaciones/01_EDA.pdf) | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ANDRIX089/VCT_Oddsmaker/blob/main/notebooks/01_EDA.ipynb) |
-| [`02_Modelos_Clasificacion.ipynb`](notebooks/02_Modelos_Clasificacion.ipynb) | Modelos de clasificación: ¿quién gana el mapa? (segunda entrega) | [PDF](presentaciones/02_Modelos_Clasificacion.pdf) | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ANDRIX089/VCT_Oddsmaker/blob/main/notebooks/02_Modelos_Clasificacion.ipynb) |
-| [`03_Regresion_Multiclase.ipynb`](notebooks/03_Regresion_Multiclase.ipynb) | Modelos de regresión del margen de rondas y clasificación multiclase (entrega final) | [PDF](presentaciones/03_Regresion_Multiclase.pdf) | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ANDRIX089/VCT_Oddsmaker/blob/main/notebooks/03_Regresion_Multiclase.ipynb) |
+| Notebook | Contenido | Abrir |
+|---|---|---|
+| [`01_EDA.ipynb`](notebooks/01_EDA.ipynb) | Análisis exploratorio de datos (primera entrega) | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ANDRIX089/VCT_Oddsmaker/blob/main/notebooks/01_EDA.ipynb) |
+| [`02_Modelos_Clasificacion.ipynb`](notebooks/02_Modelos_Clasificacion.ipynb) | Modelos de clasificación: ¿quién gana el mapa? (segunda entrega) | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ANDRIX089/VCT_Oddsmaker/blob/main/notebooks/02_Modelos_Clasificacion.ipynb) |
+| [`03_Regresion_Multiclase.ipynb`](notebooks/03_Regresion_Multiclase.ipynb) | Modelos de regresión del margen de rondas y clasificación multiclase (entrega final) | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ANDRIX089/VCT_Oddsmaker/blob/main/notebooks/03_Regresion_Multiclase.ipynb) |
 
 Los tres notebooks funcionan directamente en Google Colab: descargan `data/processed/maps_dataset.csv` desde este repositorio, sin Kaggle ni credenciales.
 
@@ -171,10 +171,6 @@ VCT_Oddsmaker/
 │   ├── 01_EDA.ipynb                    # análisis exploratorio (primera entrega)
 │   ├── 02_Modelos_Clasificacion.ipynb  # GNB, árbol, Random Forest y SVM (segunda entrega)
 │   └── 03_Regresion_Multiclase.ipynb   # árbol, RF y SVR regresores + multiclase (entrega final)
-├── presentaciones/
-│   ├── 01_EDA.pdf                      # diapositivas de la primera entrega
-│   ├── 02_Modelos_Clasificacion.pdf    # diapositivas de la segunda entrega
-│   └── 03_Regresion_Multiclase.pdf     # diapositivas de la entrega final
 ├── src/
 │   ├── download_dataset.py      # descarga el dataset de Kaggle (2024-2026)
 │   └── build_dataset.py         # une las tablas y genera data/processed/maps_dataset.csv
